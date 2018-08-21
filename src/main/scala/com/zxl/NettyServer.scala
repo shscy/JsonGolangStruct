@@ -13,12 +13,12 @@ import io.netty.buffer.Unpooled
 import io.netty.util.AsciiString
 
 
-object NettyServer extends App {
-  val server = new Server {
-    override val Port: Int = 8899
-  }
-  server.start()
-}
+//object NettyServer extends App {
+//  val server = new Server {
+//    override val Port: Int = 8899
+//  }
+//  server.start()
+//}
 
 trait ServerConfig {
   val Port:Int
